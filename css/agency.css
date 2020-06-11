@@ -11,6 +11,8 @@ body {
 
 p {
   line-height: 1.75;
+  display:block;
+  position:fixed;
 }
 
 a {
@@ -486,6 +488,8 @@ header.masthead .intro-text .intro-heading {
 
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
+  display:block;
+  position:fixed;
   margin-bottom: 0;
 }
 
@@ -579,8 +583,12 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
   text-transform: none;
 }
-
+.col-sm-43{
+  
+}
 .team-member p {
+  display:block;
+  position:fixed;
   margin-top: 0;
 }
 
